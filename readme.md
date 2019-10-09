@@ -46,19 +46,19 @@ These scripts are highly commented and can be easily modified to extract whateve
 
 ### Prerequisites
 - **Required Software**
- - R 3.0 and above
+  - R 3.0 and above
 
- - RStudio 1.1 and above
- - Python 2.0 and above
+  - RStudio 1.1 and above
+  - Python 2.0 and above
 
 - **R Studio Libraries**
- - TransPhylo
- - ape
- - stringr
- - lubridate
- - readr
- - reticulate
- - igraph
+  - TransPhylo
+  - ape
+  - stringr
+  - lubridate
+  - readr
+  - reticulate
+  - igraph
 
 
 [Back To The Top](#table-of-contents)
