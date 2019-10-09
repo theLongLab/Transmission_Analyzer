@@ -155,7 +155,7 @@ An instance of the clusterGen is as follows:
 >clusterGen('nodes.csv','edges.csv',1)
 
 **The output will be as follows:**
-![](assets/readme-3e4303dc.png)
+![alt text](https://github.com/theLongLab/Transmission_Analyzer/blob/master/clusterGEN.png)
 
 **Figure 2:** _Novel transmission clusters identified from the transmission tree in Figure 1. Each node represents a sampled patient from the SAC database, and each edge a directed transmission relationship. Coloured nodes represent sampled patients and indicate the corresponding coloured boxes in Figure 1. White nodes represented predicted unsampled patients. Solid edges represent transmission relationships already known to the SAC, whereas dashed edges represent novel inferences of transmission._
 
