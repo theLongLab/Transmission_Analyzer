@@ -142,14 +142,14 @@ clusterGen is used to visualize the transmission clusters. It is an acyclic grap
 
 Two txt files should be created for clusterGen. They are as follows:
  - The first file contains the nodes
-  - The node files contains two columns the Patient ID and the Sampled column.
-  - 1 is used to refer to sampled patients and 0 to unsampled or predicted patients.
+   - The node files contains two columns the Patient ID and the Sampled column.
+   - 1 is used to refer to sampled patients and 0 to unsampled or predicted patients.
 
- -The second text file contains the information of who transmitted to whom
-  - The second output file should contain three columns.
-  - First column dubbed Primary stating the ID of the source of infection.
-  - Second column dubbed Secondary stating the ID of the sink of infection.
-  - Third column
+ - The second text file contains the information of who transmitted to whom
+   - The second output file should contain three columns.
+   - First column dubbed Primary stating the ID of the source of infection.
+   - Second column dubbed Secondary stating the ID of the sink of infection.
+   - Third column
 
 _Sample files have been provided._
 
