@@ -90,15 +90,15 @@ TransPhylo breaks when this happens, so they have to be removed from the Newick 
 The auto Summary function takes over the TransPhylo inferTTree function. The parameters can be edited using the Main_Run script.
 
 - The inputs inlcude:
- - TransPhylo ptree object
+  - TransPhylo ptree object
 
- - Number of sampled patients
- - TransPhylo parameters to be customized
+  - Number of sampled patients
+  - TransPhylo parameters to be customized
 
 - The outputs are:
- - Inferred TransPhylo ctree object
+  - Inferred TransPhylo ctree object
 
- - summary statistics in the summary_data dataframe
+  - summary statistics in the summary_data dataframe
 
 _It should be noted that autoSummary given an output in the form of a modified ctree, this should be assigned to a R variable and this new ctree should be used in the transReport function_
 
