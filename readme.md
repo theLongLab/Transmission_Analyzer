@@ -8,7 +8,7 @@
 
 - [Description](#description)
 - [Getting Started](#getting-started)
-- [Function of R and Python Scripts](#function_of_r_and_python_scripts)
+- [Function of R and Python Scripts](#function-of-r-and-python-scripts)
 - [Procedure](#procedure)
 - [License](#license)
 - [Authors](#author-info)
