@@ -110,7 +110,7 @@ Generates a Report of the predicted Transmission relationships and the predicted
 
 The autoSummary generated c tree and the population size of the sample should be input into the function
 
->transReport(c,pop)
+>transReport(c , pop)
 
 #### predictVSKnown
 
