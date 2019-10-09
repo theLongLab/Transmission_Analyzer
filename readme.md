@@ -151,7 +151,7 @@ Two txt files should be created for clusterGen. They are as follows:
    - Second column dubbed Secondary stating the ID of the sink of infection.
    - Third column dubbed Known, whether it was a predicted (0) or known (1) transmissiom.
 
-_Sample files have been provided, namely sample_clustnodes.txt and sample_clustedges.txt._
+_Sample files have been provided, namely sample_clust.nodes.txt and sample_clust.edges.txt._
 
 An instance of clusterGen is as follows:
 >clusterGen('nodes.csv' , 'edges.csv' , 1)
