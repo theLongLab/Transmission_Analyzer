@@ -75,7 +75,7 @@ You can run the entire process from the Main_Run script. Simply edit the paramet
 
 First use TransPhylo and generate the ptree from a neewick tree.
 
->ptree<-ptreeFromPhylo(read.tree('sample.nwk'),dateLastSample=2018.222)
+>ptree <- ptreeFromPhylo(read.tree('sample.nwk') , dateLastSample = 2018.222)
 
 Then use brLenChecker function to identify the row and column of the affected nodes, ID of the originating node, patient ID of the affected node.
 
@@ -102,7 +102,7 @@ The auto Summary function takes over the TransPhylo inferTTree function. The par
 
 _It should be noted that autoSummary given an output in the form of a modified ctree, this should be assigned to a R variable and this new ctree should be used in the transReport function_
 
->c<-autoSummary(ptree,pop,0.99,F,1,gshape,gscalep,sshape,scalep)
+>c <- autoSummary(ptree , pop , 0.99 , F , 1 , gshape , gscalep , sshape , scalep)
 
 #### transReport
 
@@ -128,7 +128,7 @@ To manually perform this process you have to extract the correct and incorrect t
 
 To convert dates to decimal you may use the lubridate library.
 
-> plotCTree(c,TRUE,NA,NA,correct,incorrect)
+> plotCTree(c , TRUE , NA , NA , correct , incorrect)
 
 **The output will be as follows:**
 
@@ -140,7 +140,7 @@ To convert dates to decimal you may use the lubridate library.
 
 clusterGen is used to visualize the transmission clusters. It is an acyclic graph that represents the P2P transmission relationships.  For instance which patient infected whom and graphically view the direction of the transmission. It can be used to view the sampled and non-sampled patients in different colours.
 
-Two txt files should be created for clusterGen. They are as follows
+Two txt files should be created for clusterGen. They are as follows:
  - The first file contains the nodes
   - The node files contains two columns the Patient ID and the Sampled column.
   - 1 is used to refer to sampled patients and 0 to unsampled or predicted patients.
@@ -154,7 +154,7 @@ Two txt files should be created for clusterGen. They are as follows
 _Sample files have been provided._
 
 An instance of the clusterGen is as follows:
->clusterGen('nodes.csv','edges.csv',1)
+>clusterGen('nodes.csv' , 'edges.csv' , 1)
 
 **The output will be as follows:**
 ![alt text](https://github.com/theLongLab/Transmission_Analyzer/blob/master/clusterGEN.png)
