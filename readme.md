@@ -116,7 +116,7 @@ The autoSummary generated c tree and the population size of the sample should be
 
 This is a python script that can be loaded into R Studio and executed from the same project. This function is automated in the Main_Run script.
 
-There is no input file that has to be entered but the transReport generated tsv file should be left in the same project directory for the script to access.
+There is no input file that has to be entered but the transReport generated tsv file should be left in the same project directory for the script to access. It requires the sample_actual_transmission.tsv rename it as actual_transmission_table.tsv before use and place in project folder.
 
 #### plotCTree
 
@@ -150,6 +150,8 @@ Two txt files should be created for clusterGen. They are as follows
   - First column dubbed Primary stating the ID of the source of infection.
   - Second column dubbed Secondary stating the ID of the sink of infection.
   - Third column
+
+_Sample files have been provided._
 
 An instance of the clusterGen is as follows:
 >clusterGen('nodes.csv','edges.csv',1)
