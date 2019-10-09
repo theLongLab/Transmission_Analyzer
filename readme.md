@@ -141,19 +141,19 @@ To convert dates to decimal you may use the lubridate library.
 clusterGen is used to visualize the transmission clusters. It is an acyclic graph that represents the P2P transmission relationships.  For instance which patient infected whom and graphically view the direction of the transmission. It can be used to view the sampled and non-sampled patients in different colours.
 
 Two txt files should be created for clusterGen. They are as follows:
- - The first file contains the nodes
+ - The first file contains the nodes:
    - The node files contains two columns the Patient ID and the Sampled column.
    - 1 is used to refer to sampled patients and 0 to unsampled or predicted patients.
 
- - The second text file contains the information of who transmitted to whom
+ - The second text file contains the information of who transmitted to whom:
    - The second output file should contain three columns.
    - First column dubbed Primary stating the ID of the source of infection.
    - Second column dubbed Secondary stating the ID of the sink of infection.
-   - Third column
+   - Third column dubbed Known, whether it was a predicted (0) or known (1) transmissiom.
 
 _Sample files have been provided._
 
-An instance of the clusterGen is as follows:
+An instance of clusterGen is as follows:
 >clusterGen('nodes.csv' , 'edges.csv' , 1)
 
 **The output will be as follows:**
