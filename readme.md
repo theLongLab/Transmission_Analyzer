@@ -25,7 +25,7 @@ The pipeline is capable of inferring not only the transmission relationships but
 
 The pipeline consists of three steps.
 
-#### Procedure of Pipeline
+#### Outline of Pipeline Procedure
 
 - Multiple Sequence Alignment
 - Rooted Phylogenetic Tree Generation
