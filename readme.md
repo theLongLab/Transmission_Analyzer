@@ -209,6 +209,10 @@ See also the list of contributors (reference publication to be added) who partic
 [Back To The Top](#table-of-contents)
 
 ## Citations
-_If you find these scripts helpful in your own transmission analyses, please cite (reference publication to be added)._
+_If you find these scripts helpful in your own transmission analyses, please cite:
+
+Evaluation of A Phylogenetic Pipeline to Examine Transmission Networks in A Canadian HIV Cohort
+L Mak, D Perera, R Lang, P Kossinna, J He, MJ Gill, Q Long, G van Marle
+Microorganisms 8 (2), 196)._
 
 [Back To The Top](#table-of-contents)
