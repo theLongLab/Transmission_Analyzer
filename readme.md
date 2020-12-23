@@ -204,7 +204,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 - Lauren Mak: Developed and tested the scripts.
 - Deshan Perera: Automated and tested the scripts
 
-See also the list of contributors (reference publication to be added) who participated in this project. Didelot et al.: Developed and tested the TransPhylo program.
+See also the list of contributors (_Evaluation of A Phylogenetic Pipeline to Examine Transmission Networks in A Canadian HIV Cohort
+L Mak, D Perera, R Lang, P Kossinna, J He, MJ Gill, Q Long, G van Marle
+Microorganisms 8 (2), 196)._) who participated in this project. Didelot et al.: Developed and tested the TransPhylo program.
 
 [Back To The Top](#table-of-contents)
 
