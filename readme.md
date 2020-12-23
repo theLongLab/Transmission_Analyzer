@@ -206,7 +206,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 See also the list of contributors (_Evaluation of A Phylogenetic Pipeline to Examine Transmission Networks in A Canadian HIV Cohort
 L Mak, D Perera, R Lang, P Kossinna, J He, MJ Gill, Q Long, G van Marle
-Microorganisms 8 (2), 196)._) who participated in this project. Didelot et al.: Developed and tested the TransPhylo program.
+Microorganisms 8 (2), 196_) who participated in this project. Didelot et al.: Developed and tested the TransPhylo program.
 
 [Back To The Top](#table-of-contents)
 
@@ -215,6 +215,6 @@ _If you find these scripts helpful in your own transmission analyses, please cit
 
 _Evaluation of A Phylogenetic Pipeline to Examine Transmission Networks in A Canadian HIV Cohort
 L Mak, D Perera, R Lang, P Kossinna, J He, MJ Gill, Q Long, G van Marle
-Microorganisms 8 (2), 196)._
+Microorganisms 8 (2), 196_
 
 [Back To The Top](#table-of-contents)
